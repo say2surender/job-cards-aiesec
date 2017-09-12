@@ -33,6 +33,19 @@
 
     <div ng-view></div>
 
+<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDurQcsPQNpX9sV7IvgdBVzRRAgmyCeaJU",
+    authDomain: "commutatus-9cdb7.firebaseapp.com",
+    databaseURL: "https://commutatus-9cdb7.firebaseio.com",
+    projectId: "commutatus-9cdb7",
+    storageBucket: "commutatus-9cdb7.appspot.com",
+    messagingSenderId: "560135198362"
+  };
+  firebase.initializeApp(config);
+</script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
